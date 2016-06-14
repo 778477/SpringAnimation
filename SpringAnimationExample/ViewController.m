@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UISlider *durationSlider;
-@property (weak, nonatomic) IBOutlet UISlider *dampingDlider;
+@property (weak, nonatomic) IBOutlet UISlider *dampingSlider;
 @property (weak, nonatomic) IBOutlet UISlider *springVelocitySlider;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentContro;
 @property (weak, nonatomic) IBOutlet UIView *targetView;
@@ -53,7 +53,7 @@
             break;
     }
     
-    [UIView animateWithDuration:self.durationSlider.value delay:0.f usingSpringWithDamping:self.dampingDlider.value initialSpringVelocity:self.springVelocitySlider.value options:options animations:^{
+    [UIView animateWithDuration:self.durationSlider.value delay:0.f usingSpringWithDamping:self.dampingSlider.value initialSpringVelocity:self.springVelocitySlider.value options:options animations:^{
         
         CGRect frame = self.targetView.frame;
         frame.origin.y = 300;
@@ -95,7 +95,7 @@
             break;
     }
     
-    [UIView animateWithDuration:self.durationSlider.value delay:0.f usingSpringWithDamping:self.dampingDlider.value initialSpringVelocity:self.springVelocitySlider.value options:options animations:^{
+    [UIView animateWithDuration:self.durationSlider.value delay:0.f usingSpringWithDamping:self.dampingSlider.value initialSpringVelocity:self.springVelocitySlider.value options:options animations:^{
         
         CGRect frame = self.targetView.frame;
         frame.origin.y = 0;
