@@ -198,7 +198,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="dampingDlider" destination="f5r-mM-lz6" id="dNg-47-vV9"/>
+                        <outlet property="dampingSlider" destination="f5r-mM-lz6" id="V08-J6-dcJ"/>
                         <outlet property="durationSlider" destination="3VH-GM-hnX" id="SIP-tk-PFg"/>
                         <outlet property="segmentContro" destination="7Ar-8u-DM7" id="o2Q-3d-y02"/>
                         <outlet property="springVelocitySlider" destination="gOA-Xx-QZj" id="J96-xs-j6Q"/>
