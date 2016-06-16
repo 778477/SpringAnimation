@@ -110,7 +110,6 @@
 				TargetAttributes = {
 					E57E85481D1066F700E0AC40 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 5W9JNEGWA4;
 					};
 				};
 			};
@@ -254,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpringAnimationExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmy.project.SpringAnimationExample;
@@ -265,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpringAnimationExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmy.project.SpringAnimationExample;
@@ -291,6 +292,7 @@
 				E57E85621D1066F800E0AC40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
